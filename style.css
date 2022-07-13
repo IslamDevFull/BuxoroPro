@@ -1,6 +1,26 @@
-*{scroll-behavior: smooth; margin: 0;padding: 0;box-sizing: border-box;overflow-x: hidden;font-family: 'Poppins';position: relative;}.header{position: relative;height: 100vh;}.logo{border-radius: 50%;overflow: hidden;}video{position: absolute;top: 0;left: 0;height: 100vh;width: 100%;object-fit: cover;/* filter: blur(0px); */z-index: -1;}.header h1{color: #fff;font-size: 3.8em;position: relative;/* animation: anim 20s linear; */}.header h2{color: #222222;font-size: 2.5em;position: relative;}.header p{color: whitesmoke;font-size: 1.5em;position: relative;max-width: 700px;}.info{min-height: 100vh;position: relative;background: url(channels4_profile.jpg);background-size: cover;background-position: center center;backdrop-filter: blur(10px);}.info h1{color: #fff;font-size: 3em;text-align: center;position: relative;}.info h2{margin-top: 20px;text-align: center;font-family: 'MV Boli';font-size: 2em;}.info pre{text-align: center;color: #fff;font-size: 1.5em;}.info p{max-width: 1100px;color: aliceblue;float: right;margin-bottom: 30px;}.card{position: relative;min-height: 100vh;background-image: url(bukhara-uzbekistan-16102021-magnificent-miriarab-260nw-2101050439.webp);background-size: cover;background-position: center center;overflow: hidden;}.card iframe{margin-top: 50px;margin-bottom: 50px;}.rest-pg{height: 230vh;background: url(5728502_mobile.jpg);background-size: cover;overflow: hidden;background-position: center;background-attachment: fixed;}.rest-pg::-webkit-scrollbar{width: 0;display: none;}.rest-pg img{height: 320px;width: 350px;border: 2px solid transparent;/* transform: rotate(2deg); */position: relative;transition: .5s;/* display: flex;flex-direction: column; */}.rest-pg h1{font-size: 3em;color: white;text-align: center;font-family: cursive;}.rest-pg h2{color: #fff;}.rest-pg img:hover{border: 6px solid transparent;box-shadow: 0 0 20px rgba(0,0,0,0.1),0 0 40px rgba(0,0,0,0.3),0 0 60px rgba(0,0,0,0.5),0 0 80px rgba(0,0,0,0.7);filter: blur(1px);}.rest-pg img::before{content: 'Buxara';font-size: 3em;position: initial;top: 0;left: 0;color: rgba(0,0,0,0.1);}footer{position: relative;width: 100%;background: #2586ff;padding: 20px 50px;min-height: 100px;justify-content: center;align-items: center;flex-direction: column;}footer .menu{position: relative;display: flex; left: -100px; justify-content: center;align-items: center;margin: 10px 0;flex-wrap: wrap;left: -500px;top: -20px;}footer .menu li{list-style: none;}footer .menu li a{font-size: 1.2em;color: #fff;margin: 0 10px; display: inline-block;transition: .5s;opacity: .75;text-decoration: none;}footer .menu li a:hover{opacity: 1;}footer p{color: #fff;text-align: center;margin-top: 15px; margin-bottom: 10px;font-size: 1.1em;}footer .wave{position: absolute;top: -100px;left: 0;width: 100%;height: 100px;background: url(wave.png);background-size: 1000px 100px;}footer .wave#wave1{z-index: 1000;opacity: 1;bottom: 0;animation: animateWave 4s linear infinite;}@keyframes animateWave {0%{background-position-x: 1000px;}100%{background-position-x: 0px;}}footer .wave#wave2{z-index: 999;opacity: 0.5;bottom: 10px;animation: animateWave_2 4s linear infinite;}@keyframes animateWave_2 {0%{background-position-x: 0px;}100%{background-position-x: 1000px}}footer .wave#wave3{z-index: 1000;opacity: 0.2;bottom: 15px;animation: animateWave 3s linear infinite;}footer .wave#wave4{z-index: 999;opacity: 0.;bottom: 0;animation: animateWave_2 3s linear infinite;}
+*{scroll-behavior: smooth; margin: 0;padding: 0;box-sizing: border-box;overflow-x: hidden;font-family: 'Poppins';position: relative;}.header{position: relative;height: 100vh;}.logo{border-radius: 50%;overflow: hidden;}video{position: absolute;top: 0;left: 0;height: 100vh;width: 100%;object-fit: cover;/* filter: blur(0px); */z-index: -1;}.header h1{color: #fff;font-size: 3.8em;position: relative;/* animation: anim 20s linear; */}.header h2{color: #222222;font-size: 2.5em;position: relative;}.header p{color: whitesmoke;font-size: 1.5em;position: relative;max-width: 700px;}.info{min-height: 100vh;position: relative;background: url(channels4_profile.jpg);background-size: cover;background-position: center center;backdrop-filter: blur(10px);}.info h1{color: #fff;font-size: 3em;text-align: center;position: relative;}.info h2{margin-top: 20px;text-align: center;font-family: 'MV Boli';font-size: 2em;}.info pre{text-align: center;color: #fff;font-size: 1.5em;}.info p{max-width: 1100px;color: aliceblue;float: right;margin-bottom: 30px;}.card{position: relative;min-height: 100vh;background-image: url(bukhara-uzbekistan-16102021-magnificent-miriarab-260nw-2101050439.webp);background-size: cover;background-position: center center;overflow: hidden;}.card iframe{margin-top: 50px;margin-bottom: 50px;}
 /* +998919798844 */
 
+.log{
+    position: absolute;
+    left: 89%;
+    top: 35px;
+    text-decoration: none;
+    font-size: 40px;
+    font-weight: 1000;
+    background-color: black;
+    border-radius: 10px 10px;
+    cursor: pointer;
+    color:white;
+    transition: 1.5s all;
+    
+}
+.log:hover{
+    box-shadow: 1px 1px 5px 5px rgb(143, 11, 11);
+      border-radius: 60px 60px;
+      background-color: rgb(185, 19, 19);
+      color: #000;
+}
 .menyu *{
     margin: 0; 
     padding: 0;

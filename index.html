@@ -51,8 +51,8 @@
 
     <div class="info"><br>
         <h1>BUXORO-I SHARIF</h1>
-        <h2>БУХОРО</h2><br><br><br>
-        <pre data-50-top="opacity:0;left:100px;" data-0-top="opacity:1;left:0;">
+        <h2 style="color: yellow;font-family:cursive;">БУХОРО</h2><br><br><br>
+        <pre id="demo" data-50-top="opacity:0;left:100px;" data-0-top="opacity:1;left:0;">
             Боғсўқмоқлар жаннатга пайванд,
             Жўизарлар авлоди баҳор.
             Гулчорбоғдан келин туширар,
@@ -78,7 +78,7 @@
             Онам ётган тупроғин Худо
             Ялпизларга тўй қилиб берди!!!
         </pre>
-        <p  data-0-bottom="opacity:0;right:200px;" data-center-center="opacity:1;right:0px;">Бухара́ (узб. Buxoro) — один из древнейших городов Центральной Азии, административный центр Бухарской области Узбекистана; настоящий архитектурный и историко-культурный заповедник, сохранивший уникальные памятники зодчества всех исторических эпох, начиная с IX века. В развитое средневековье она была средоточием культуры, науки и мусульманской теологии всего Среднего и Ближнего Востока.
+        <p id="demo1" data-0-bottom="opacity:0;right:200px;" data-center-center="opacity:1;right:0px;">Бухара́ (узб. Buxoro) — один из древнейших городов Центральной Азии, административный центр Бухарской области Узбекистана; настоящий архитектурный и историко-культурный заповедник, сохранивший уникальные памятники зодчества всех исторических эпох, начиная с IX века. В развитое средневековье она была средоточием культуры, науки и мусульманской теологии всего Среднего и Ближнего Востока.
 
             Бухара — единственный город Средней Азии, чья пред- и раннеисламская история была подробно описана в известном труде Наршахи, историка, жившего в X веке[2].
             
@@ -102,5 +102,23 @@
     <div class="rest-pg" id="rest-bg">
        
     </div>
+    <script>
+        window.onscroll = function(){fan()};
+       function fan (){
+           if (document.documentElement.scrollTop >700){
+               document.getElementById("demo").style.display = "block";
+           }
+           else{
+               document.getElementById("demo").style.display = "none";
+           }
+           if (document.documentElement.scrollTop > 1000){
+               document.getElementById("demo1").style.display = "block";
+           }
+           else{
+               document.getElementById("demo1").style.display = "none";
+           }
+        
+       }
+   </script>
 </body>
 </html>

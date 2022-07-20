@@ -83,3 +83,33 @@
         opacity: 2;
     }
 }
+footer{
+    background-color: #2586ff;
+    padding: 20px 50px;
+}
+.foo h1{
+    text-align: center;
+    margin-top: 30px;
+}
+.foo a{
+    width: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.foo a:hover{
+    background:black; 
+    color:chartreuse; 
+    box-shadow: 1px 5px 10px rgb(17, 0, 255);  
+    transition: all 0.8s ease; 
+    width: 260px;
+    height: 30px;
+    cursor: pointer;
+    border-radius:  50px;
+}
+
+.foo i{
+    position: absolute;
+    left: 232px;
+    top: -39px;
+}

@@ -1,6 +1,5 @@
-*{scroll-behavior: smooth; margin: 0;padding: 0;box-sizing: border-box;overflow-x: hidden;font-family: 'Poppins';position: relative;}.header{position: relative;height: 100vh;}.logo{border-radius: 50%;overflow: hidden;}video{position: absolute;top: 0;left: 0;height: 100vh;width: 100%;object-fit: cover;/* filter: blur(0px); */z-index: -1;}.header h1{color: #fff;font-size: 3.8em;position: relative;/* animation: anim 20s linear; */}.header h2{color: #222222;font-size: 2.5em;position: relative;}.header p{color: whitesmoke;font-size: 1.5em;position: relative;max-width: 700px;}.info{min-height: 4vh; padding: 100px; position: relative;background: url(channels4_profile.jpg);background-size: cover;background-position: center center;backdrop-filter: blur(10px);}.info h1{color: #fff;font-size: 3em; text-align: center;position: relative;}.info h2{margin-top: 20px;text-align: center;font-family: 'MV Boli';font-size: 2em;}.info pre{text-align: center;color: #fff;font-size: 1.5em;}.info p{max-width: 1100px;color: aliceblue;float: right;margin-bottom: 30px;}.card{position: relative;min-height: 100vh;background-image: url(bukhara-uzbekistan-16102021-magnificent-miriarab-260nw-2101050439.webp);background-size: cover;background-position: center center;overflow: hidden;}.card iframe{margin-top: 50px;margin-bottom: 50px;}
+*{scroll-behavior: smooth; margin: 0;padding: 0;box-sizing: border-box;overflow-x: hidden;font-family: 'Poppins';position: relative;}.header{position: relative;height: 100vh;}.logo{border-radius: 50%;overflow: hidden;}video{position: absolute;top: 0;left: 0;height: 100vh;width: 100%;object-fit: cover;/* filter: blur(0px); */z-index: -1;}.header h1{color: #fff;font-size: 3.8em;position: relative;/* animation: anim 20s linear; */}.info{min-height: 4vh; padding: 100px; position: relative;background: url(channels4_profile.jpg);background-size: cover;background-position: center center;backdrop-filter: blur(10px);}.info h1{color: #fff;font-size: 3em; text-align: center;position: relative;}.info h2{margin-top: 20px;text-align: center;font-family: 'MV Boli';font-size: 2em;}.info pre{text-align: center;color: #fff;font-size: 1.5em;}.info p{max-width: 1100px;color: aliceblue;float: right;margin-bottom: 30px;}.card{position: relative;min-height: 100vh;background-image: url(bukhara-uzbekistan-16102021-magnificent-miriarab-260nw-2101050439.webp);background-size: cover;background-position: center center;overflow: hidden;}.card iframe{margin-top: 50px;margin-bottom: 50px;}
 /* +998919798844 */
-
 .log{
     position: absolute;
     left: 89%;
@@ -17,17 +16,13 @@
 }
 .log:hover{
     box-shadow: 1px 1px 5px 5px rgb(143, 11, 11);
-      border-radius: 60px 60px;
-      background-color: rgb(185, 19, 19);
-      color: #000;
-}
-.menyu *{
-    margin: 0; 
-    padding: 0;
-    
+    border-radius: 60px 60px;
+    background-color: rgb(185, 19, 19);
+    color: #000;
 }
 .menyu {
-    background: rgba(0,0,0,0.9);
+    background: rgba(0,0,0,0.2);
+    transition: 2px solid red;
 }
 .menyu:hover{
     background: black;
